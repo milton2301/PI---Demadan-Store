@@ -1,0 +1,50 @@
+ body{
+    text-align: center;
+    margin: 0px;
+    background-color: #ffefd5;
+}
+
+form {
+    border: 1px solid black;
+    border-radius: 0px;
+    margin: 0px 350px;
+  }
+  
+  /* Todos os tamanhos do inputs */
+  input[type=text], input[type=password] {
+    text-align: center;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 15px;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos do todos os botões */
+  button {
+    background-color: #f58f51;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 5px;
+  }
+  
+  /* Adicionando efeito de movimentos aos botões */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Adicionando espaço de barra pro container */
+  .container {
+    padding: 5px;
+  }
+  
+  a{
+      text-decoration: none;
+      color: aliceblue;
+  }
